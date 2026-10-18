@@ -7,9 +7,6 @@ plugins {
 android {
     namespace = "com.sgst​​udio.masterclone"
     compileSdk = 35
-    androidResources {
-        generateLocaleConfig = false
-    }
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
